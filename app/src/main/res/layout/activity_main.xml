@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+            <View
+                android:id="@+id/view_one"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#DFFF00"
+                android:layout_marginEnd="80dp"/>
+            <View
+                android:id="@+id/view_two"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#9FE2BF"/>
+            <View
+                android:id="@+id/view_three"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#40E0D0"
+                android:layout_marginEnd="40dp"/>
+            <View
+                android:id="@+id/view_four"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#d92b04"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scrollview"
+            android:layout_below="@id/layout1"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scrollview"
+            android:layout_below="@id/textview1"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scrollview"
+            android:layout_below="@id/textview2"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scrollview"
+            android:layout_below="@id/textview3"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/textview5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scrollview"
+            android:layout_below="@id/textview4"
+            android:layout_marginBottom="16dp"/>
+    </RelativeLayout>
+
+</ScrollView>
